@@ -1,0 +1,74 @@
+.current {
+	color: green;
+}
+
+.column {
+  float: left;
+}
+
+.left {
+  width: 27%;
+}
+
+.middle {
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.switch {
+	stroke: #009900;
+	stroke-width: 3;
+	stroke-dasharray: 10 5;
+	fill: none;
+}
+
+tikz-path {
+	stroke: #000;
+	stroke-width: 1.5;
+}
+
+figure {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 h2 h3 h4 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+	margin-right: 16px;
+}
+
+nav a {
+  background-color: #eee; /* Grey background color */
+  color: black; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+}
+
+nav a:hover {
+  background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+nav a.current {
+  background-color: #4CAF50; /* Add a green color to the "active/current" link */
+  color: white;
+}

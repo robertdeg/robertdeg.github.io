@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="content-type" content="application/xhtml; charset=UTF-8"></meta>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto&display=swap" rel="stylesheet"></link>
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/styles.css"></link>
+    <script type="text/javascript" src="assets/js/todo.js"></script>
+    <script type="text/javascript" src="assets/js/tikz.js"></script>
+  </head>
+  <body>
+    <div class="row">
+      <div class="column left">
+      	{% include navigation.html %}
+      </div>
+      <div class="column middle">
+        {{ content }}
+      </div>
+    </div>
+  </body>
+</html>

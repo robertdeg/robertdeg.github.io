@@ -1,0 +1,24 @@
+- name: Home
+  link: /
+- name: Chapter 1 - Introduction
+  link: /ch1.html
+- name: Chapter 2 - Combinatorial circuits
+  link: /ch2.html
+- name: Chapter 3 - Boolean Algebra
+  link: /ch3.html
+- name: Chapter 4 - Karnaugh Maps
+  link: /ch4.html
+- name: Chapter 5 - Number Systems
+  link: /ch5.html
+- name: Chapter 6 - Gray Code
+  link: /ch6.html
+- name: Chapter 7 - Physical Properties
+  link: /ch7.html
+- name: Chapter 8 - Adders and Comparators
+  link: /ch8.html
+- name: Chapter 9 - Field Programmable Gate Arrays
+  link: /ch9.html
+- name: Chapter 10 - Memory Elements
+  link: /ch10.html
+- name: Chapter 11 - State Machines
+  link: /ch11.html
